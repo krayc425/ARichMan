@@ -51,7 +51,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         super.viewWillAppear(animated)
         
         // Create a session configuration
-        let configuration = ARWorldTrackingSessionConfiguration()
+        let configuration = ARWorldTrackingConfiguration()
 
         // Detect horizontal planes
         configuration.planeDetection = .horizontal
